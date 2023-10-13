@@ -1,8 +1,8 @@
 import React from 'react'
-import makeStyles from './styles';
+//import makeStyles from './styles';
 
 const Post = () => {
-  const classes = makeStyles();
+  // const classes = makeStyles();
   return (
     <h1>Post</h1>
   );

@@ -13,7 +13,7 @@ app.use(cors());
 
 app.use('/posts', postRoutes);
 
-const CONNECTION_URL = 'mongodb+srv://Advanced-MERNdb:RD4uYGjbSvPyplNt@cluster0.lja4ilt.mongodb.net/?retryWrites=true&w=majoritymongodb+srv://js_mastery:123123123@practice.jto9p.mongodb.net/test';
+const CONNECTION_URL = 'mongodb+srv://Advanced:RD4uYGjbSvPyplNt@cluster0.lja4ilt.mongodb.net/?retryWrites=true&w=majoritymongodb+srv://js_mastery:123123123@practice.jto9p.mongodb.net/test';
 const PORT = process.env.PORT|| 5000;
 
 mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true })
